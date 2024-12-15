@@ -37,8 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   tflite_flutter: ^0.11.0
   image_picker: ^1.1.2
-  logger: ^2.5.0
-  tflite_flutter_helper_plus: ^0.0.2
+  image: ^4.5.0
 #  tflite_flutter_helper:
 #    git:
 #      url: https://github.com/VisualPT/tflite_flutter_helper.git
@@ -67,8 +66,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/mobilenet_v1_1.0_224.tflite
+    - assets/labels.txt
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
